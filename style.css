@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(123,188,255);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    margin: auto;
+    padding: 65px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #2779C3,#3F729F, #4B6E8E);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+header p {
+    color: rgb(124,177,231);
+    padding-top: 15px;
+}
+
+nav {
+    background-color: rgb(82,110,132);
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px #517599;
+    border-bottom-left-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(247,254,255);
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: #7ABCFF;
+    color: #2578CC;
+}
+
+main {
+    background-color: #fff;
+    margin: 25px auto;
+    text-align: center;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 10px;
+    box-shadow: 0 0 1em #6C93B4;
+}
+
+h2 {
+    text-align: center;
+    background-image: linear-gradient(to right, #82BEFA, #C6E4FF, #ffffff);
+    color: rgb(80,112,133);
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+figure img {
+    border: 1px solid #000;
+}
+
+aside > ul {
+    list-style-position: inside;
+    text-align: justify;
+    background-color: #2578CC;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+aside > h3 {
+    text-align: center;
+    background-color: #174B80;
+    color: #FFF;
+    border-radius: 10px 10px 0px 0px;
+    margin: 15px 10px 0px 10px;
+}
